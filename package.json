@@ -1,0 +1,26 @@
+{
+  "name": "passeme",
+  "version": "0.0.1",
+  "description": "A password manager",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauriciomelo/passeme.git"
+  },
+  "keywords": [
+    "passeme",
+    "password"
+  ],
+  "author": "Mauricio Melo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mauriciomelo/passeme/issues"
+  },
+  "homepage": "",
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.0"
+  }
+}
