@@ -18,7 +18,7 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 
 ```bash
 # Clone this repository
-git clone https://github.com/mauriciomelo/passeme
+git clone https://github.com/passeme/passeme
 # Go into the repository
 cd passeme
 # Install dependencies and run the app
