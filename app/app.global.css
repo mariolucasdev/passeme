@@ -1,0 +1,9 @@
+body {
+  position: relative;
+  color: #343437;
+  background: #e4e9ec;
+  font-family: Arial, Helvetica, Helvetica Neue;
+  overflow-y: hidden;
+  margin: 0;
+  padding: 0;
+}
