@@ -17,7 +17,7 @@ export default class App extends Component {
         <AppBar title="passeme"></AppBar>
 
         <div className={styles.container}>
-          <div className={styles['login-list']}>
+          <div className={styles.loginList}>
             <VisibleLoginList></VisibleLoginList>
             <div className={styles.createButton}>
               <Link to="/createLogin" >
@@ -27,7 +27,7 @@ export default class App extends Component {
               </Link>
             </div>
           </div>
-          <div className={styles['create-login']}>
+          <div className={styles.viewContainer}>
             {this.props.children}
             {
               (() => {

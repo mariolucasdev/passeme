@@ -7,7 +7,7 @@ import VisibleCreateLogin from './containers/VisibleCreateLogin';
 
 export default (
   <Route path="/" component={App}>
-    <IndexRoute component={VisibleCreateLogin} />
+    <IndexRoute component={VisibleViewLogin} />
     <Route path="/viewLogin/:userId" component={VisibleViewLogin} />
     <Route path="/createLogin" component={VisibleCreateLogin} />
   </Route>

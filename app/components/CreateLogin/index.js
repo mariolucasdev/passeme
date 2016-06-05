@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import RaisedButton from 'material-ui/lib/raised-button';
 import TextField from 'material-ui/lib/text-field';
-
 export default class CreateLogin extends Component {
 
   constructor(props) {
@@ -36,7 +35,7 @@ export default class CreateLogin extends Component {
 
   render() {
     return (
-      <div className={this.props.className}>
+      <div>
         <h2>Create Login</h2>
         <TextField
           hintText="username"
